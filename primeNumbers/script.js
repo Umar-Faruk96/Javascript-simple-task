@@ -16,3 +16,5 @@ const isPrime = (number) => {
   return true;
 };
 console.log(showPrimes(limit));
+
+/* resource for find prime number: https://sebhastian.com/javascript-prime-number/ */
