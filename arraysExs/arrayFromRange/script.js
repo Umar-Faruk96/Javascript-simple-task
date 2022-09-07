@@ -7,4 +7,9 @@ const arrayFromRange = (min, max) => {
   return output;
 };
 
+// positive input
 console.log(arrayFromRange(1, 4));
+
+// negative input
+
+console.log(arrayFromRange(-10, -4));
