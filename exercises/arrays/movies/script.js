@@ -36,3 +36,19 @@ const movieTitles = movies
   .map((e) => e.title);
 
 console.log(movieTitles);
+
+/* 
+resources for this exercise:
+
+1. filter method:-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+2. sort method:-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+3. reverse method:-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+
+4. map method
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+*/
