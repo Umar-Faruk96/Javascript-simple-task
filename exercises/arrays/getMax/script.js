@@ -26,10 +26,7 @@ console.log(outputP, outputU);
 const reduceMax = (array) => {
   if (array.length === 0) return undefined;
 
-  return array.reduce((previous, current) => {
-    if (current > previous) current;
-    return current;
-  }, 0);
+  return array.reduce((a, b) => (a > b ? a : b));
 };
 
 // positive output
