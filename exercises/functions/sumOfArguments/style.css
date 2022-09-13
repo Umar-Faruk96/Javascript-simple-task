@@ -1,0 +1,57 @@
+/* general styles */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font: 10px / 1.3 helvetica, sans-serif;
+}
+
+body {
+    font-size: 2rem;
+}
+
+h1 {
+    font: 3rem cambria, serif;
+}
+
+p {
+    color: purple;
+    margin: 1rem 0;
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+li {
+    color: purple;
+}
+
+label {
+    color: palevioletred;
+    display: inline-block;
+    padding: 1rem;
+}
+
+input {
+    width: 40%;
+    max-width: 50%;
+    display: block;
+    padding: 1rem;
+    border: 0.1rem solid #2f42c2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+button {
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0 2rem 2rem;
+    border: 0.1rem solid #362f42;
+    border-radius: 0.5rem;
+    font: bold 1.8rem/ 1.2 consolas, serif;
+}
